@@ -30,5 +30,25 @@
     color: var(--gray-4D4D);
 }
 .font-nav{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-600);
+    color: var(--red-C21);
+}
 
+.font-nav-btn{
+    font-size: var(--fs-15);
+    font-weight: var(--fw-600);
+    color: var(--white-fff); 
+}
+
+.footer-para{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--white-fff); 
+}
+
+.footer-p{
+    font-size: var(--fs-14);
+    font-weight: var(--fw-400);
+    color: var(--white-fff); 
 }

@@ -18,6 +18,20 @@
 .pt-40{
     padding-top: 40px;
 }
+.pt-13{
+    padding-top: 13px;
+}
+
+.pb-9{
+    padding-bottom: 9px;
+}
+.pt-16{
+    padding-top: 16px;
+}
+
+.pb-95{
+    padding-bottom: 95px;
+}
 
 /* nav-section */
 .nav-bg-crd{
@@ -60,6 +74,17 @@ background: var(--Button, #C2190E);
     }
     .pl-0{
         padding-left: 0;
+    }
+
+
+
+    /* footer-section */
+    p {
+         margin-bottom: unset !important;
+    }
+
+    .mx-435{
+        max-width: 435px;
     }
 
 @media (max-width:1200px) {
