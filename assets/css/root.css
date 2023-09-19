@@ -12,6 +12,22 @@
     --gray-4D4D: #4D4D4D;
     --red-C21: #C2190E;
     --white-fff: #FFF;
+}
 
+.fonts-nav-bar{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--gray-4D4D);
+}
 
+.font-nav{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-600);
+    color: var(--red-C21);
+}
+
+.font-nav-btn{
+    font-size: var(--fs-15);
+    font-weight: var(--fw-600);
+    color: var(--white-fff);
 }
