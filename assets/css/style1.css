@@ -6,9 +6,19 @@
     list-style-type: none !important;
     text-decoration: none !important;
 }
+/* article-section */
 .f-heading{
     line-height: 180%;
 }
 .f-article{
     line-height: 180%;
+}
+input{
+    border-radius: 31.5px;
+    padding: 14px 14px 14px 17px;
+    outline: unset;
+    border: 1px solid var(--red-C21);
+}
+.pt-120{
+    padding-top: 120px;
 }

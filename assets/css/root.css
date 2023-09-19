@@ -29,6 +29,6 @@
     font-weight: var(--fw-400);
     color: var(--gray-4D4D);
 }
-.font-nav{
-
+.clr-black{
+    color: var(--black);
 }
