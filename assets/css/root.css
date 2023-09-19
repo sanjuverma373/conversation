@@ -12,6 +12,17 @@
     --gray-4D4D: #4D4D4D;
     --red-C21: #C2190E;
     --white-fff: #FFF;
+    --black:#000;
 
 
+}
+.f-heading{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-600);
+    color: var(--black);
+}
+.f-article{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--gray-4D4D);
 }
