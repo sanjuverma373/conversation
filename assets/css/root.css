@@ -24,3 +24,11 @@
     font-weight: var(--fw-400);
     color: var(--gray-4D4D);
 }
+.fonts-nav-bar{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--gray-4D4D);
+}
+.font-nav{
+
+}
