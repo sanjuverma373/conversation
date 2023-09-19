@@ -1,1 +1,17 @@
-/* font-size */
+:root{
+    /* font-size */
+    --fs-14: 14px;
+    --fs-15: 15px;
+    --fs-16: 16px;
+
+    /* font-weight */
+    --fw-400: 400;
+    --fw-600: 600;
+
+    /* color */
+    --gray-4D4D: #4D4D4D;
+    --red-C21: #C2190E;
+    --white-fff: #FFF;
+
+
+}
