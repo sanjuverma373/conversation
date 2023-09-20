@@ -52,3 +52,15 @@
     font-weight: var(--fw-400);
     color: var(--white-fff); 
 }
+
+.info-font-hading{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-600);
+    color: var(--black); 
+}
+
+.font-info-para{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--gray-4D4D); 
+}
