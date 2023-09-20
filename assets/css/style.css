@@ -144,6 +144,9 @@ p {
     .pb-sm-100 {
         padding-bottom: 100px;
     }
+    .pt-sm-120{
+        padding-top: 120px;
+    }
 }
 
 @media (max-width:1200px) {
