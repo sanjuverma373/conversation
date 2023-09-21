@@ -62,7 +62,7 @@ nav ul li a {
     left: 50%;
     bottom: -2%;
     transition: .4s;
-    background-color: #000;
+    background-color: var(--red-C21);
 }
 .line:hover::before{
     left: 0;
@@ -71,8 +71,8 @@ nav ul li a {
 .gap-15 {
     gap: 15px;
 }
-.mx-353 {
-    max-width: 353px;
+.mx-264 {
+    max-width: 264px;
 }
 .nav-btn {
     padding: 6px 22px;
@@ -110,8 +110,28 @@ nav ul li a {
 .pb-15 {
     padding-bottom: 15px;
 }
+/* article section */
+.f-heading{
+    line-height: 180%;
+    font-family: 'Poppins', sans-serif;
+}
+.f-article{
+    line-height: 180%;
+    font-family: 'Poppins', sans-serif;
+}
+input{
+    border-radius: 31.5px;
+    padding: 14px 14px 14px 17px;
+    outline: unset;
+    border: 1px solid var(--red-C21);
+    font-family: 'Poppins', sans-serif;
+}
+.pt-120{
+    padding-top: 120px;
+}
 
 /* information-section */
+
 .mx-402 {
     max-width: 402px;
 }
@@ -120,6 +140,7 @@ nav ul li a {
 }
 
 /* footer-section */
+
 p {
     margin-bottom: unset !important;
 }
@@ -148,6 +169,12 @@ p {
         padding-top: 120px;
     }
 }
+@media (min-width:992px) {
+    .overflow-y-lg-scroll{
+        overflow-y: scroll;
+        height: 231vh;
+    }
+}
 
 @media (max-width:1200px) {
     label[id="menuicon"] {
@@ -157,7 +184,7 @@ p {
         display: flex;
         position: absolute;
         right: 2%;
-        top: 2%;
+        top: 5%;
         justify-content: space-between;
         flex-direction: column;
         z-index: 5;
